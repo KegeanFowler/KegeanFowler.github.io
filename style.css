@@ -1,0 +1,29 @@
+/*Background*/
+
+body {
+    background-image: url('background.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+/*structured page*/
+
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+/*main text*/
+
+.main-header {
+    text-align: center;
+    margin-top: 10vh;
+}
